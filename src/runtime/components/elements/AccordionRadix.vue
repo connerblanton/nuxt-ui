@@ -49,7 +49,6 @@
 <script lang="ts">
 import { ref, computed, toRef, defineComponent } from 'vue'
 import type { PropType } from 'vue'
-import { Disclosure as HDisclosure, DisclosureButton as HDisclosureButton, DisclosurePanel as HDisclosurePanel } from '@headlessui/vue'
 import { AccordionContent as RAccordionContent, AccordionHeader as RAccordionHeader, AccordionItem as RAccordionItem, AccordionRoot as RAccordionRoot, AccordionTrigger as RAccordionTrigger } from 'radix-vue'
 import UIcon from '../elements/Icon.vue'
 import UButton from '../elements/Button.vue'
