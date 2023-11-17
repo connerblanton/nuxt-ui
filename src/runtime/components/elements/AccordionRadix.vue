@@ -65,9 +65,6 @@ const configButton = mergeConfig<typeof button>(appConfig.ui.strategy, appConfig
 
 export default defineComponent({
   components: {
-    HDisclosure,
-    HDisclosureButton,
-    HDisclosurePanel,
     UIcon,
     UButton,
     RAccordionContent,
