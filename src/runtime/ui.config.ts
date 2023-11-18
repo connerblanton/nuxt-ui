@@ -1188,6 +1188,7 @@ export const breadcrumb = {
 export const modal = {
   wrapper: 'relative z-50',
   inner: 'fixed inset-0 overflow-y-auto',
+  content: 'fixed bottom-0 sm:bottom-auto sm:top-[50%] left-[50%] translate-x-[-50%] sm:translate-y-[-50%] z-50 w-full',
   container: 'flex min-h-full items-end sm:items-center justify-center text-center',
   padding: 'p-4 sm:p-0',
   margin: 'sm:my-8',
